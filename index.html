@@ -1,89 +1,113 @@
-
 <!DOCTYPE html>
 <html lang en>
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 1 Joaquín Molfino</title>
-    <link rel = "stylesheet" href ="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <img 
-        src = "imagen.jpeg"
-        width = "420"
-        height = "500"
-        class = "image"> 
+    <div class = "global">
+        <div class = "container">
+            <div class = "header">
+                <h1 class = "title">Joaquín Molfino</h1>
+                <img src="imagen.jpeg".jpg" class="profile-image">
+            </div>
+        </div>
 
-    <center>
-        <h1 id = "title" >Joaquín Arturo Molfino Tapia</h1>
+        <div class = "description_container">
+            <div class = "description">
+                <h3>Computer Science Engineering Student</h3>
+                <h3>Enrolled at "Universidad de Los Andes" in 2022</h3>
 
-        <h3>Computer Science Engineering Student</h3>
-        <h3>Enrolled at "Universidad de Los Andes" in 2022</h3>
+                </h3>
+            </div>
+        </div>
 
-        <p class = "paragraphs">Besides being an engineering student,</p>
-        <p class = "paragraphs">I'm a firefighter at the 20th station of the Santiago Fire Department.</p>
-        <p class = "paragraphs">Firefighting is my favourite activity and if it were a paid job,</p>
-        <p class = "paragraphs">I would most likely be working there.</p>
-        <p class = "paragraphs">I also really enjoy being outside, nature, and always be moving.</p>
+        <div class = "resume">
+            <p>I'm a 4th year student of Computer Science Engineering at Universidad de Los Ande.s</p>
+            <p>As you may see right now I'm learning about HTML and CSS, looking forward to get better at it.</p>
+            <p>Besides being a student, I'm a firefighter at the 20th station of the Santiago Fire Department.</p>
+            <p>I also really enjoy being outside, in nature, and always being on the move.</p>
+        </div>
 
-        <h2 id = "titleabilities">Skills</h2>
+        <div class = "skills">
+            <h2 class = "subtitle">Skills</h2>
+                <div class = "table_div">
+                    <table class="table">
+                        <tr>
+                            <th>Tool</th>
+                            <th>Level</th>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Excel</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Medium</td>
+                        </tr>
+                        <tr>
+                            <td>C++ and C</td>
+                            <td>Medium</td>
+                        </tr>
+                        <tr>
+                            <td>SQL</td>
+                            <td>Basic</td>
+                        </tr>
+                        <tr>
+                            <td>HTML/CSS</td>
+                            <td>Basic</td>
+                        </tr>
+                        <tr>
+                            <td>Git</td>
+                            <td>Basic</td>
+                        </tr>
+                        <tr>
+                            <td>English</td>
+                            <td>Advanced (C2)</td>
+                        </tr>
+                        <tr>
+                            <td>Italian</td>
+                            <td>Basic</td>
+                        </tr>
+                        <tr>
+                            <td>Spanish</td>
+                            <td>Native</td>
+                        </tr>
+        
+                    </table>
+        
+                </div>
+        </div>
+    </div>
 
-        <table border = 5 class = "tabla">
-            <tr>
-                <th>Tool</th>
-                <th>Level</th>
-            </tr>
-            <tr>
-                <td>Python</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-                <td>Medium</td>
-            </tr>
-            <tr>
-                <td>C++ and C</td>
-                <td>Medium</td>
-            </tr>
-            <tr>
-                <td>SQL</td>
-                <td>Basic</td>
-            </tr>
-            <tr>
-                <td>HTML/CSS</td>
-                <td>Basic</td>
-            </tr>
-            <tr>
-                <td>Git</td>
-                <td>Basic</td>
-            </tr>
-            <tr>
-                <td>Excel</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>English</td>
-                <td>Advanced (C2)</td>
-            </tr>
-            <tr>
-                <td>Italian</td>
-                <td>Basic</td>
-            </tr>
-            <tr>
-                <td>Spanish</td>
-                <td>Native</td>
-            </tr>    
-            
-        </table>
 
+    <div class = "button_div">
+        <input type="text" id="userInput" placeholder="Write your name!">
+        <button onclick="nombre()">Press here</button>
 
-     </center>
-     <a class= "piepagina" href="https://github.com/jmolfino20">My GitHub</a>
+    </div>
 
-      
+    <div class = "greeting">
+        <p id="output"></p> 
+    </div>
  
+
+    <div>
+        <div class="end">
+            <a href="https://github.com/jmolfino20">My GitHub</a>
+        </div>
+    </div>
+
+
 </body>
+<script src="script.js"></script>
 </html>

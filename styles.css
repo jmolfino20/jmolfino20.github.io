@@ -1,50 +1,84 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
     background: linear-gradient(90deg, #d55d02e2, #d51313ed);
-
 }
 
-#title{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: underline;
-    font-style: oblique;
-    font-size: 1.2cm;
-}
-
-#titleabilities{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-decoration: underline;
-}
-
-
-.paragraphs{
-    line-height: 0.4;
+.profile-image {
+    max-width: 300px; /* Ajusta este valor según el tamaño que prefieras */
+    height: auto;
+    width: auto;
+    margin-top: 10px; /* Espacio entre el h1 y la imagen */
     
+    border-radius: 8px; /* Opcional: para bordes redondeados */
+}
+.container{
+    align-items: center;
+}
+
+.container_image{
+    align-items: center;
 
 }
 
-.piepagina {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #3333337e;
-    color: rgb(0, 0, 0);
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    font-style: italic;
+    
+}
+
+.subtitle{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:underline;
+}
+
+.global{
     text-align: center;
+}
+
+.table {
+    width: 40%; 
+    text-align: center;
+    margin: 0 auto; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table, .table th, .table td {
+    border: 2px solid black; 
+    background-color: rgba(85, 83, 83, 0.322);
+}
+
+.table th, .table td {
+    padding: 10px; 
+}
+
+
+.button_div{
+    margin: 20px;
+    text-align: center;
+}
+
+.resume{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:30%;
+    font-size: large;
     padding: 10px;
 }
 
-
-.tabla{
-    border-style: double black ;
+.description{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:30%;
     font-size: large;
 }
 
-.image{
-    
+.greeting{
+    text-align:  center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.end {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #33333360;
+    text-align: center;
+    padding: 20px;
 }
