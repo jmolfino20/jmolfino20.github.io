@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, #d55d02e2, #d51313ed);
+
+}
+
+#title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    font-style: oblique;
+    font-size: 1.2cm;
+}
+
+#titleabilities{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+
+.paragraphs{
+    line-height: 0.3;
+}
+
+.piepagina {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3333337e;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+
+.tabla{
+    border-style: double black ;
+    font-size: large;
+}
