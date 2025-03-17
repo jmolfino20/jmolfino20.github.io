@@ -90,6 +90,7 @@ body {
 
     .resume, .description {
         font-size: 18px; 
+        max-width: 95%;
     }
 
     .table {
