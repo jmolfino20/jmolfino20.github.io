@@ -90,6 +90,7 @@ body {
 
     .resume, .description {
         font-size: 8px; 
+        margin-bottom: 20px;
     }
 
     .desciption_container{
