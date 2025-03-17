@@ -76,17 +76,6 @@ body {
     word-break: break-word;
 }
 
-#cel{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    width:100%;
-    align-items: center;
-    text-align: center;
-    max-width: 90%;
-    margin:auto;
-}
-
 .greeting{
     text-align:  center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -100,12 +89,28 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .title {
+        font-size: 24px; 
+    }
 
-    #cel{
-        flex-direction: row;
-        align-items: flex-start;
-        margin:auto;
-        max-width: 64rem;
-        text-align: left;
+    .resume, .description {
+        font-size: 8px; 
+        margin-bottom: 200px;
+    }
+
+    .description_container{
+        margin-bottom: 20px;
+    }
+
+    .table {
+        width: 90%; 
+    }
+
+    .button_div {
+        margin: 10px;
+    }
+
+    .end {
+        padding: 15px;
     }
 }
