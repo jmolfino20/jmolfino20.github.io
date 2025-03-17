@@ -69,6 +69,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height:30%;
     font-size: large;
+    word-break: break-word;
 }
 
 .greeting{
@@ -90,7 +91,6 @@ body {
 
     .resume, .description {
         font-size: 18px; 
-        max-width: 95%;
     }
 
     .table {
