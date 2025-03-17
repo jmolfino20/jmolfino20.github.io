@@ -23,7 +23,9 @@ body {
 
 
 .paragraphs{
-    line-height: 0.3;
+    line-height: 0.4;
+    
+
 }
 
 .piepagina {
@@ -41,4 +43,8 @@ body {
 .tabla{
     border-style: double black ;
     font-size: large;
+}
+
+.image{
+    
 }
