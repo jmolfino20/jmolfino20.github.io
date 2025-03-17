@@ -7,7 +7,6 @@ body {
     height: auto;
     width: auto;
     margin-top: 10px; /* Espacio entre el h1 y la imagen */
-    
     border-radius: 8px; /* Opcional: para bordes redondeados */
 }
 .container{
@@ -90,7 +89,7 @@ body {
     }
 
     .resume, .description {
-        font-size: 18px; 
+        font-size: 8px; 
     }
 
     .table {
