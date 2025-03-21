@@ -3,11 +3,11 @@ body {
 }
 
 .profile-image {
-    max-width: 300px; /* Ajusta este valor según el tamaño que prefieras */
+    max-width: 300px;
     height: auto;
     width: auto;
-    margin-top: 10px; /* Espacio entre el h1 y la imagen */
-    border-radius: 8px; /* Opcional: para bordes redondeados */
+    margin-top: 10px;
+    border-radius: 8px; 
 }
 .container{
     align-items: center;
@@ -57,18 +57,21 @@ body {
 }
 
 .resume{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height:30%;
+
     font-size: large;
-    padding: 10px;
+
+
 }
 
-.description_container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+.col{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgba(95, 94, 94, 0.466);
 }
+
 
 .description{
+    background: #000;
+    margin: 10px;
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height:30%;
@@ -81,6 +84,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.news{
+    background: #000;
+}
+
 .end {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #33333360;
@@ -88,14 +95,14 @@ body {
     padding: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 200px) {
     .title {
         font-size: 24px; 
     }
 
     .resume, .description {
         font-size: 8px; 
-        margin-bottom: 200px;
+        margin-bottom: 20px;
     }
 
     .description_container{

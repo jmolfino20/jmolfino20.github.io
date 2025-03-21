@@ -7,3 +7,5 @@ function nombre() {
         document.getElementById("output").textContent = "Hello, " + input +"! " + "Thanks for visiting my page!";
     }
 }
+
+//GET https://newsapi.org/v2/top-headlines?country=us&apiKey=5470f0728d4b4e31ad9a162ae1feb902
