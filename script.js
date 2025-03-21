@@ -21,9 +21,9 @@ $(document).ready(function() {
   
       articles.slice(0, 12).forEach(article => {
 
-        const title = article.title || 'Sin título';
-        const source = article.source.name || 'Fuente desconocida';
-        const description = article.description || 'No hay descripción disponible';
+        const title = article.title || 'No title';
+        const source = article.source.name || 'Unknown source';
+        const description = article.description || 'No description available';
         const url = article.url || '#';
         const imageUrl = article.urlToImage || 'https://via.placeholder.com/300x200?text=No+Image';
         
